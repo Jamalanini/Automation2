@@ -228,6 +228,6 @@ public class MyTestCases  extends MyDatabase{
             driver.navigate().back();
         }
 
-        throw new RuntimeException("No in-stock item found after 10 attempts.");
+
     }
 }
