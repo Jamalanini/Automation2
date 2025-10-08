@@ -64,11 +64,11 @@ public class MyTestCases  extends MyDatabase{
 
             CustomerAddressInDataBase = Res.getString("addressLine1").toString().trim();
 
-            email = CustomerFirstNameInDataBase + CustomerLastNameInDataBase + "@gmail.com";
+            email = CustomerFirstNameInDataBase + CustomerLastNameInDataBase + Random + "@gmail.com";
 
             password = "123!@#P@ssw0rd";
 
-            Name = CustomerFirstNameInDataBase + CustomerLastNameInDataBase + customerNumberInDataBase ;
+            Name = CustomerFirstNameInDataBase + CustomerLastNameInDataBase + Random ;
 
 
         }

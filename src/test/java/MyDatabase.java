@@ -1,5 +1,6 @@
 
 import java.sql.*;
+import java.util.Random;
 
 public class MyDatabase {
 
@@ -35,6 +36,8 @@ public class MyDatabase {
 
     String Name ;
 
+    Random rand = new Random();
+    int Random = rand.nextInt(6598);
 
 
 
